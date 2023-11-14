@@ -1,0 +1,11 @@
+.taskItem {
+  position: relative;
+  background-color: var(--clr-nav);
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 100;
+}

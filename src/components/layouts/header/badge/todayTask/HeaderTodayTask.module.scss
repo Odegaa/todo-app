@@ -1,0 +1,14 @@
+@import "../../../../../assets/styles/base/mixin";
+
+.today {
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-text);
+  h4 {
+    font-weight: 700;
+    @include adaptiv-font(20, 12, 20);
+  }
+  p {
+    @include adaptiv-font(20, 12, 20);
+  }
+}

@@ -1,0 +1,25 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .none {
+    max-width: 500px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: -50px;
+    text-align: center;
+    h2 {
+      font-weight: 600;
+      color: var(--clr-text);
+    }
+    p {
+      color: var(--clr-text);
+    }
+  }
+}

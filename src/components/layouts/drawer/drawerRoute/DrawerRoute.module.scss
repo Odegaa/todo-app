@@ -1,0 +1,44 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 256px;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f1f5f9;
+  transition: background-color 200ms, color 200ms linear;
+  .submenu {
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    h2 {
+      font-weight: 700;
+      color: #475569;
+    }
+  }
+  .menu {
+    overflow: auto;
+    position: relative;
+    height: 100%;
+    padding-bottom: 25px;
+    transition: background-color 200ms, color 200ms linear;
+    &::-webkit-scrollbar {
+      width: 3px;
+      height: 2px;
+      background-color: #fff;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+    }
+  }
+}
+.dark {
+  background-color: #141e33;
+  .submenu {
+    h2 {
+      color: #94a3b8;
+    }
+  }
+}
